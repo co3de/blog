@@ -352,7 +352,7 @@ function animate() {
 
 function render() {
 
-    group.rotation.y += (targetRotation - group.rotation.y) * 0.05;
+    group.rotation.y += (targetRotation - group.rotation.y) * 0.025;
 
     camera.lookAt(cameraTarget);
 
